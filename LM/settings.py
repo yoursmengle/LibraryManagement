@@ -24,7 +24,7 @@ SECRET_KEY = 'iw06g3zbjko)_0h&d&byv%=&h7cf58x-x+%gc1k82w!0xp+ksm'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['1-2-3.xin']
 
 # Application definition
 

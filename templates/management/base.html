@@ -34,7 +34,7 @@
             <ul class="nav navbar-nav">
                 <li id="homepage"><a href="{% url 'homepage' %}">主页</a></li>
                 {% if user.myuser.permission > 1 %}
-                    <li id="add_book"><a href="{% url 'add_book' %}">添加图书</a></li>
+                    <li id="add_book"><a href="{% url 'add_book' %}">提出任务</a></li>
                     <li id="add_img"><a href="{% url 'add_img' %}">添加图片</a></li>
                 {% endif %}
                 <li id="view_book"><a href="{% url 'view_book_list' %}">查看图书</a></li>
@@ -58,8 +58,8 @@
 <!-- header -->
 <header class="jumbotron subhead" id="header-base">
     <div class="container">
-        <h1>图书管理系统</h1>
-        <h3>&emsp;&emsp;知识改变命运</h3>
+        <h2>APP 1to3</h2>
+        <h3>&emsp;&emsp;问一得三</h3>
     </div>
 </header>
 <!-- /.header -->
